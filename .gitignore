@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Don't accidentally commit sensitive info ###
+src/main/java/com/lars/examples/auth/jwtdemo/JwtController.java
