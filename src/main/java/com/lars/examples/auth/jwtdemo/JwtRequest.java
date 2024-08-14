@@ -2,9 +2,9 @@ package com.lars.examples.auth.jwtdemo;
 
 public class JwtRequest {
     private String sessionName;
-    private String role;
+    private int role;
 
-    public JwtRequest(String sessionName, String role) {
+    public JwtRequest(String sessionName, int role) {
         this.sessionName = sessionName;
         this.role = role;
     }
@@ -14,10 +14,10 @@ public class JwtRequest {
     public void setSessionName(String sessionName) {
         this.sessionName = sessionName;
     }
-    public String getRole() {
+    public int getRole() {
         return role;
     }
-    public void setRole(String role) {
+    public void setRole(int role) {
         this.role = role;
     }
     
